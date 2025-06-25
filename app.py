@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load('notebooks/churn_random_forest_model.pkl')
+model = joblib.load('churn_random_forest_model.pkl')
 
 st.title("Customer Churn Predictor 💼")
 
