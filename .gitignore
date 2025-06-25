@@ -2,6 +2,7 @@
 
 __pycache__/
 .ipynb_checkpoints/
+!churn_random_forest_model.pkl
 *.pkl
 *.pyc
 .env
