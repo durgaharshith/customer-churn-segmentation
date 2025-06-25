@@ -1,8 +1,4 @@
-Here's a well-structured `README.md` file for your **Customer Churn Segmentation & Prediction** project, suitable for your GitHub repository:
 
----
-
-```markdown
 # 📊 Customer Churn Segmentation & Prediction
 
 A machine learning project to analyze customer behavior, identify churn patterns, and build an interactive web app for predicting customer churn using the **Random Forest** algorithm.
@@ -28,8 +24,7 @@ A machine learning project to analyze customer behavior, identify churn patterns
 
 ## 🚀 Live App
 
-👉 [Click here to try the live app](#)  
-_(Replace with your Streamlit Cloud URL once deployed)_
+👉 [Click here to try the live app](https://customer-churn-segmentation-5yphhxhhyq3afwwmidnteq.streamlit.app/)  
 
 ---
 
@@ -50,10 +45,10 @@ _(Replace with your Streamlit Cloud URL once deployed)_
 ```
 
 customer-churn-segmentation/
-├── churn\_random\_forest\_model.pkl   # Saved ML model
+├── churn_random_forest_model.pkl   # Saved ML model
 ├── app.py                          # Streamlit app
 ├── notebooks/
-│   └── churn\_analysis.ipynb        # Jupyter notebook for EDA & model building
+│   └── churn_analysis.ipynb        # Jupyter notebook for EDA & model building
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
 └── .gitignore
@@ -68,7 +63,6 @@ customer-churn-segmentation/
    ```bash
    git clone https://github.com/durgaharshith/customer-churn-segmentation.git
    cd customer-churn-segmentation
-````
 
 2. **Install Dependencies**
 
@@ -101,16 +95,3 @@ customer-churn-segmentation/
 * `churn_random_forest_model.pkl` is used by the Streamlit app to serve predictions.
 * All preprocessing steps were handled manually to match model input features.
 
----
-
----
-
-## 🏷️ License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-```
